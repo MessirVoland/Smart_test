@@ -9,6 +9,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.0-rc03'
+        classpath 'com.google.gms:google-services:4.2.0'
     }
 }
 
@@ -80,7 +81,8 @@ project(":android") {
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-arm64-v8a"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86_64"
-        
+
+        implementation 'com.google.firebase:firebase-core:17.0.0'
     }
 }
 
@@ -100,3 +102,5 @@ project(":core") {
 tasks.eclipse.doLast {
     delete ".project"
 }
+
+apply plugin: 'com.google.gms.google-services'
