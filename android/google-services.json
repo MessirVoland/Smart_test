@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "456724799003",
+    "firebase_url": "https://smart-test-6635671.firebaseio.com",
+    "project_id": "smart-test-6635671",
+    "storage_bucket": "smart-test-6635671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456724799003:android:c19255281d8a8d04",
+        "android_client_info": {
+          "package_name": "com.detonegames.smart_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456724799003-978r251gklc667tgrnekdd6tkrge67au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.detonegames.smart_test",
+            "certificate_hash": "9191bbaf1ab6567622b72b64d1c015215c53c2ac"
+          }
+        },
+        {
+          "client_id": "456724799003-6pu3ao0r03sfj5a0aept5jusd1ls2906.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjMn2uEgnwCi3oy05I5jV6w9Z-XAw130U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456724799003-6pu3ao0r03sfj5a0aept5jusd1ls2906.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
